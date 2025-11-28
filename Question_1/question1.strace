@@ -1,0 +1,108 @@
+60451 execve("./question1", ["./question1"], 0x7ffce122b308 /* 81 vars */) = 0
+60451 brk(NULL)                         = 0x57969218e000
+60451 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7662d62ab000
+60451 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+60451 openat(AT_FDCWD, "/tmp/.mount_cursorU0RnaJ/usr/lib/glibc-hwcaps/x86-64-v3/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+60451 newfstatat(AT_FDCWD, "/tmp/.mount_cursorU0RnaJ/usr/lib/glibc-hwcaps/x86-64-v3/", 0x7ffc1b15e4a0, 0) = -1 ENOENT (No such file or directory)
+60451 openat(AT_FDCWD, "/tmp/.mount_cursorU0RnaJ/usr/lib/glibc-hwcaps/x86-64-v2/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+60451 newfstatat(AT_FDCWD, "/tmp/.mount_cursorU0RnaJ/usr/lib/glibc-hwcaps/x86-64-v2/", 0x7ffc1b15e4a0, 0) = -1 ENOENT (No such file or directory)
+60451 openat(AT_FDCWD, "/tmp/.mount_cursorU0RnaJ/usr/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+60451 newfstatat(AT_FDCWD, "/tmp/.mount_cursorU0RnaJ/usr/lib/", {st_mode=S_IFDIR|0755, st_size=0, ...}, 0) = 0
+60451 openat(AT_FDCWD, "/tmp/.mount_cursorU0RnaJ/usr/lib32/glibc-hwcaps/x86-64-v3/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+60451 newfstatat(AT_FDCWD, "/tmp/.mount_cursorU0RnaJ/usr/lib32/glibc-hwcaps/x86-64-v3/", 0x7ffc1b15e4a0, 0) = -1 ENOENT (No such file or directory)
+60451 openat(AT_FDCWD, "/tmp/.mount_cursorU0RnaJ/usr/lib32/glibc-hwcaps/x86-64-v2/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+60451 newfstatat(AT_FDCWD, "/tmp/.mount_cursorU0RnaJ/usr/lib32/glibc-hwcaps/x86-64-v2/", 0x7ffc1b15e4a0, 0) = -1 ENOENT (No such file or directory)
+60451 openat(AT_FDCWD, "/tmp/.mount_cursorU0RnaJ/usr/lib32/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+60451 newfstatat(AT_FDCWD, "/tmp/.mount_cursorU0RnaJ/usr/lib32/", 0x7ffc1b15e4a0, 0) = -1 ENOENT (No such file or directory)
+60451 openat(AT_FDCWD, "/tmp/.mount_cursorU0RnaJ/usr/lib64/glibc-hwcaps/x86-64-v3/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+60451 newfstatat(AT_FDCWD, "/tmp/.mount_cursorU0RnaJ/usr/lib64/glibc-hwcaps/x86-64-v3/", 0x7ffc1b15e4a0, 0) = -1 ENOENT (No such file or directory)
+60451 openat(AT_FDCWD, "/tmp/.mount_cursorU0RnaJ/usr/lib64/glibc-hwcaps/x86-64-v2/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+60451 newfstatat(AT_FDCWD, "/tmp/.mount_cursorU0RnaJ/usr/lib64/glibc-hwcaps/x86-64-v2/", 0x7ffc1b15e4a0, 0) = -1 ENOENT (No such file or directory)
+60451 openat(AT_FDCWD, "/tmp/.mount_cursorU0RnaJ/usr/lib64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+60451 newfstatat(AT_FDCWD, "/tmp/.mount_cursorU0RnaJ/usr/lib64/", 0x7ffc1b15e4a0, 0) = -1 ENOENT (No such file or directory)
+60451 openat(AT_FDCWD, "/tmp/.mount_cursorU0RnaJ/lib/glibc-hwcaps/x86-64-v3/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+60451 newfstatat(AT_FDCWD, "/tmp/.mount_cursorU0RnaJ/lib/glibc-hwcaps/x86-64-v3/", 0x7ffc1b15e4a0, 0) = -1 ENOENT (No such file or directory)
+60451 openat(AT_FDCWD, "/tmp/.mount_cursorU0RnaJ/lib/glibc-hwcaps/x86-64-v2/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+60451 newfstatat(AT_FDCWD, "/tmp/.mount_cursorU0RnaJ/lib/glibc-hwcaps/x86-64-v2/", 0x7ffc1b15e4a0, 0) = -1 ENOENT (No such file or directory)
+60451 openat(AT_FDCWD, "/tmp/.mount_cursorU0RnaJ/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+60451 newfstatat(AT_FDCWD, "/tmp/.mount_cursorU0RnaJ/lib/", 0x7ffc1b15e4a0, 0) = -1 ENOENT (No such file or directory)
+60451 openat(AT_FDCWD, "/tmp/.mount_cursorU0RnaJ/lib/i386-linux-gnu/glibc-hwcaps/x86-64-v3/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+60451 newfstatat(AT_FDCWD, "/tmp/.mount_cursorU0RnaJ/lib/i386-linux-gnu/glibc-hwcaps/x86-64-v3/", 0x7ffc1b15e4a0, 0) = -1 ENOENT (No such file or directory)
+60451 openat(AT_FDCWD, "/tmp/.mount_cursorU0RnaJ/lib/i386-linux-gnu/glibc-hwcaps/x86-64-v2/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+60451 newfstatat(AT_FDCWD, "/tmp/.mount_cursorU0RnaJ/lib/i386-linux-gnu/glibc-hwcaps/x86-64-v2/", 0x7ffc1b15e4a0, 0) = -1 ENOENT (No such file or directory)
+60451 openat(AT_FDCWD, "/tmp/.mount_cursorU0RnaJ/lib/i386-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+60451 newfstatat(AT_FDCWD, "/tmp/.mount_cursorU0RnaJ/lib/i386-linux-gnu/", 0x7ffc1b15e4a0, 0) = -1 ENOENT (No such file or directory)
+60451 openat(AT_FDCWD, "/tmp/.mount_cursorU0RnaJ/lib/x86_64-linux-gnu/glibc-hwcaps/x86-64-v3/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+60451 newfstatat(AT_FDCWD, "/tmp/.mount_cursorU0RnaJ/lib/x86_64-linux-gnu/glibc-hwcaps/x86-64-v3/", 0x7ffc1b15e4a0, 0) = -1 ENOENT (No such file or directory)
+60451 openat(AT_FDCWD, "/tmp/.mount_cursorU0RnaJ/lib/x86_64-linux-gnu/glibc-hwcaps/x86-64-v2/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+60451 newfstatat(AT_FDCWD, "/tmp/.mount_cursorU0RnaJ/lib/x86_64-linux-gnu/glibc-hwcaps/x86-64-v2/", 0x7ffc1b15e4a0, 0) = -1 ENOENT (No such file or directory)
+60451 openat(AT_FDCWD, "/tmp/.mount_cursorU0RnaJ/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+60451 newfstatat(AT_FDCWD, "/tmp/.mount_cursorU0RnaJ/lib/x86_64-linux-gnu/", 0x7ffc1b15e4a0, 0) = -1 ENOENT (No such file or directory)
+60451 openat(AT_FDCWD, "/tmp/.mount_cursorU0RnaJ/lib/aarch64-linux-gnu/glibc-hwcaps/x86-64-v3/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+60451 newfstatat(AT_FDCWD, "/tmp/.mount_cursorU0RnaJ/lib/aarch64-linux-gnu/glibc-hwcaps/x86-64-v3/", 0x7ffc1b15e4a0, 0) = -1 ENOENT (No such file or directory)
+60451 openat(AT_FDCWD, "/tmp/.mount_cursorU0RnaJ/lib/aarch64-linux-gnu/glibc-hwcaps/x86-64-v2/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+60451 newfstatat(AT_FDCWD, "/tmp/.mount_cursorU0RnaJ/lib/aarch64-linux-gnu/glibc-hwcaps/x86-64-v2/", 0x7ffc1b15e4a0, 0) = -1 ENOENT (No such file or directory)
+60451 openat(AT_FDCWD, "/tmp/.mount_cursorU0RnaJ/lib/aarch64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+60451 newfstatat(AT_FDCWD, "/tmp/.mount_cursorU0RnaJ/lib/aarch64-linux-gnu/", 0x7ffc1b15e4a0, 0) = -1 ENOENT (No such file or directory)
+60451 openat(AT_FDCWD, "/tmp/.mount_cursorU0RnaJ/lib32/glibc-hwcaps/x86-64-v3/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+60451 newfstatat(AT_FDCWD, "/tmp/.mount_cursorU0RnaJ/lib32/glibc-hwcaps/x86-64-v3/", 0x7ffc1b15e4a0, 0) = -1 ENOENT (No such file or directory)
+60451 openat(AT_FDCWD, "/tmp/.mount_cursorU0RnaJ/lib32/glibc-hwcaps/x86-64-v2/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+60451 newfstatat(AT_FDCWD, "/tmp/.mount_cursorU0RnaJ/lib32/glibc-hwcaps/x86-64-v2/", 0x7ffc1b15e4a0, 0) = -1 ENOENT (No such file or directory)
+60451 openat(AT_FDCWD, "/tmp/.mount_cursorU0RnaJ/lib32/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+60451 newfstatat(AT_FDCWD, "/tmp/.mount_cursorU0RnaJ/lib32/", 0x7ffc1b15e4a0, 0) = -1 ENOENT (No such file or directory)
+60451 openat(AT_FDCWD, "/tmp/.mount_cursorU0RnaJ/lib64/glibc-hwcaps/x86-64-v3/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+60451 newfstatat(AT_FDCWD, "/tmp/.mount_cursorU0RnaJ/lib64/glibc-hwcaps/x86-64-v3/", 0x7ffc1b15e4a0, 0) = -1 ENOENT (No such file or directory)
+60451 openat(AT_FDCWD, "/tmp/.mount_cursorU0RnaJ/lib64/glibc-hwcaps/x86-64-v2/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+60451 newfstatat(AT_FDCWD, "/tmp/.mount_cursorU0RnaJ/lib64/glibc-hwcaps/x86-64-v2/", 0x7ffc1b15e4a0, 0) = -1 ENOENT (No such file or directory)
+60451 openat(AT_FDCWD, "/tmp/.mount_cursorU0RnaJ/lib64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+60451 newfstatat(AT_FDCWD, "/tmp/.mount_cursorU0RnaJ/lib64/", 0x7ffc1b15e4a0, 0) = -1 ENOENT (No such file or directory)
+60451 openat(AT_FDCWD, "glibc-hwcaps/x86-64-v3/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+60451 openat(AT_FDCWD, "glibc-hwcaps/x86-64-v2/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+60451 openat(AT_FDCWD, "libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+60451 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+60451 fstat(3, {st_mode=S_IFREG|0644, st_size=66843, ...}) = 0
+60451 mmap(NULL, 66843, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7662d629a000
+60451 close(3)                          = 0
+60451 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+60451 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220\243\2\0\0\0\0\0"..., 832) = 832
+60451 pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+60451 fstat(3, {st_mode=S_IFREG|0755, st_size=2125328, ...}) = 0
+60451 pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+60451 mmap(NULL, 2170256, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7662d6000000
+60451 mmap(0x7662d6028000, 1605632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x28000) = 0x7662d6028000
+60451 mmap(0x7662d61b0000, 323584, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1b0000) = 0x7662d61b0000
+60451 mmap(0x7662d61ff000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1fe000) = 0x7662d61ff000
+60451 mmap(0x7662d6205000, 52624, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7662d6205000
+60451 close(3)                          = 0
+60451 mmap(NULL, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7662d6297000
+60451 arch_prctl(ARCH_SET_FS, 0x7662d6297740) = 0
+60451 set_tid_address(0x7662d6297a10)   = 60451
+60451 set_robust_list(0x7662d6297a20, 24) = 0
+60451 rseq(0x7662d6298060, 0x20, 0, 0x53053053) = 0
+60451 mprotect(0x7662d61ff000, 16384, PROT_READ) = 0
+60451 mprotect(0x579669548000, 4096, PROT_READ) = 0
+60451 mprotect(0x7662d62e9000, 8192, PROT_READ) = 0
+60451 prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+60451 munmap(0x7662d629a000, 66843)     = 0
+60451 fstat(1, {st_mode=S_IFCHR|0620, st_rdev=makedev(0x88, 0x2), ...}) = 0
+60451 getrandom("\x47\x96\x67\x91\xfd\xd5\xda\xf8", 8, GRND_NONBLOCK) = 8
+60451 brk(NULL)                         = 0x57969218e000
+60451 brk(0x5796921af000)               = 0x5796921af000
+60451 write(1, "Enter 10 full names of students:"..., 33) = 33
+60451 fstat(0, {st_mode=S_IFIFO|0600, st_size=0, ...}) = 0
+60451 read(0, "Sipho\nBarak\nInno\nAime\nTesi\nAngel"..., 4096) = 58
+60451 openat(AT_FDCWD, "students.txt", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+60451 fstat(3, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+60451 write(3, "Sipho\nBarak\nInno\nAime\nTesi\nAngel"..., 58) = 58
+60451 close(3)                          = 0
+60451 openat(AT_FDCWD, "students.txt", O_RDONLY) = 3
+60451 fstat(3, {st_mode=S_IFREG|0664, st_size=58, ...}) = 0
+60451 read(3, "Sipho\nBarak\nInno\nAime\nTesi\nAngel"..., 4096) = 58
+60451 close(3)                          = 0
+60451 openat(AT_FDCWD, "sorted_students.txt", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+60451 fstat(3, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+60451 write(3, "Aime\nAngelo\nBarak\nHassan\nInno\nJa"..., 58) = 58
+60451 close(3)                          = 0
+60451 write(1, "Student 1: Student 2: Student 3:"..., 166) = 166
+60451 exit_group(0)                     = ?
+60451 +++ exited with 0 +++
